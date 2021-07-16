@@ -1,0 +1,37 @@
+h3 {
+  margin-left: 10px;
+}
+
+body {
+  background-image: linear-gradient(to right top, #ecfa9f, #f9fc57, #d9f53e, #bdff53, #46e217);
+}
+
+img {
+  transition: transform 2s;
+  width: 600px;
+  height: 600px;
+}
+img:hover {
+  transform: scale(0.6);
+}
+h1 {
+  margin-left: 20px;
+}
+.menu {
+  position: fixed;
+  background: black;
+  width: 100%;
+  margin-top: 0px;
+  top: 0px;
+  z-index: 10;
+}
+.links {
+  display: inline;
+  padding-left: 110px;
+  padding-right: 25px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+}
+.links:hover {
+  font-size: 25px;
+}
